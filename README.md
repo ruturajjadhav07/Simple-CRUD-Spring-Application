@@ -16,13 +16,38 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using Spr
 
 ## Steps to Build the Application
 
-### 1. Clone or Download the Repository
+
+
+### 1. Initialize the Project using Spring Initializr
+
+Go to [Spring Initializr](https://start.spring.io/), and generate a Spring Boot project with the following options:
+
+- **Project**: Maven Project
+- **Language**: Java
+- **Spring Boot version**: (Select the latest stable version)
+- **Project Metadata**:
+  - **Group**: `com.name`
+  - **Artifact**: `name`
+  - **Name**: `name`
+  - **Description**: Simple CRUD App
+  - **Package name**: `com.packagename`
+  - **Packaging**: Jar
+  - **Java**: 17 or higher
+- **Dependencies**:
+  - **Spring Web**
+  - **Spring Data JPA**
+  - **MySQL Driver**
+  - **Thymeleaf**
+
+
+### 1. Or you can Clone or Download the Repository
 You can either clone the repository or download it as a ZIP file.
 
 ```bash
 git clone https://github.com/ruturajjadhav07/Simple-CRUD-Spring-Application.git
 
 ```
+
 ### 2. Set Up the Database
 Create a database in MySQL called springDB.
 ```bash
@@ -41,13 +66,13 @@ CREATE TABLE clients (
 );
 ```
 
-4. Build and Run the Application
+### 4. Build and Run the Application
 ```bash
 mvn clean install
 mvn spring-boot:run
 ```
 
-5. Access the Application
+### 5. Access the Application
 http://localhost:8080/
 
 # Summary
