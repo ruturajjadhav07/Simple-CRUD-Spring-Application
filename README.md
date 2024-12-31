@@ -81,3 +81,19 @@ This CRUD app is a great project for beginners to get hands-on experience with S
 Feel free to extend the project, add more features, or improve the UI!
 
 Happy coding!
+
+
+# Interface
+## landing page
+![image](https://github.com/user-attachments/assets/0f880426-3aa7-484b-a8ba-e62c9e98012a)
+## Display data
+![image](https://github.com/user-attachments/assets/df8d33a7-49e9-49df-8cde-010b63cf34a5)
+## Insert data
+![image](https://github.com/user-attachments/assets/28d6d7ff-7520-4571-9213-5a5c4f191f8e)
+## Edit data
+![image](https://github.com/user-attachments/assets/3b6a4545-4ae2-4e1a-834f-07bad6b2a147)
+## Delete data
+![image](https://github.com/user-attachments/assets/c4c5a798-2ec4-4a7b-b484-9db4f08e74ba)
+
+
+
